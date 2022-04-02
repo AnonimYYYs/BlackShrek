@@ -1,40 +1,45 @@
-To run concrete module:
-vvv
- ---> run this code in distinct console <---
-^^^
+### Bar
 
 
-Bar
 port: 5000
-vvv
+
+``` shell
 python .\Bar\main.py
-^^^
+```
 
 
-People
+
+### People
+
+
 port: 5001
-vvv
+
+
+``` shell
 python .\People\main.py
-^^^
+```
 
 
-Cashery
+### Cashery
+
+
 port: 5002
-vvv
+``` shell
 python .\Cashery\main.py
-^^^
+```
 
 
-Tables
+### Tables
 port: 5007
-vvv
+``` shell
 python .\Tables\main.py
-^^^
+```
 
 
-Frontend
+### Frontend
 port: 3000
-vvv
+``` shell
 cd .\Frontend\
 npm start
-^^^
+```
+
